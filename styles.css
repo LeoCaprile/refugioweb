@@ -1,16 +1,36 @@
 html{
-    background: black;
+background: black;
+margin: 0;
 }
-.landingpage-container{
-    margin-top: 5vw;
+body{
+    margin: 0;
+}
+.text-menu{
+    font-weight: bold; 
+    color:white;
+}
+#navmenu{
+ background: black;
+}
+.navbar-start{
 }
 
-.imagen{
-    max-width: 50em;
-    max-height: 70em;
-   
+#burger{
+    height:90px;
+    width: 80px;
 }
+
+.landingpage-container{
+    margin-top: 5vw;
+    margin-left: 2vw;
+    margin-right: 2vw;
+    display:flex;
+    justify-content:center;
+    flex-direction:column;
+}
+
 .cabecera{
-    color:white;
- 
+    
+ color: white;
+ margin: auto;
 }
