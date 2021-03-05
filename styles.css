@@ -1,0 +1,16 @@
+html{
+    background: black;
+}
+.landingpage-container{
+    margin-top: 5vw;
+}
+
+.imagen{
+    max-width: 50em;
+    max-height: 70em;
+   
+}
+.cabecera{
+    color:white;
+ 
+}
