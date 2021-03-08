@@ -13,33 +13,32 @@
 
 <nav class="navbar is-black is-fixed-top-desktop">
 <div class="navbar-brand">
-        <a href="/index.html" class="navbar-item">
-        <img src="assets/RAlogo.png" style="max-height: 70px;filter: invert(100%);" class="py-2 px-2">
+        <a href="index.html" class="navbar-item">
+        <img src="assets/RAlogo.png" style="max-height: 70px;filter: invert(100%);" class="imagen">
         </a>   
         <a id="burger" class="navbar-burger">
             <span></span>
             <span></span>
             <span></span>
-        </a> 
-         
+        </a>    
 </div>
 
 <div id="navmenu" class="navbar-menu">
 
-    <div class="navbar-start">
-        <a id="inicio" class="navbar-item text-menu">MUSICA</a>
-        <a id="contacto" class="navbar-item text-menu">TOURS</a>
-        <a id="acerca" class="navbar-item text-menu">FOTOS</a>
-        <a id="acerca" class="navbar-item text-menu">VIDEOS</a>
-        <a id="acerca" class="navbar-item text-menu">BIO</a>
-        <a id="acerca" class="navbar-item text-menu">CONTACTO</a>
+    <div class="navbar-start has-text-centered-mobile ">
+        <a href="musica.html" id="inicio" class="navbar-item"><h1 class="text-menu">MUSICA</h1></a>
+        <a id="contacto" class="navbar-item"><h1 class="text-menu">TOURS</h1></a>
+        <a id="acerca" class="navbar-item"><h1 class="text-menu">FOTOS</h1></a>
+        <a id="acerca" class="navbar-item"><h1 class="text-menu">VIDEOS</h1></a>
+        <a id="acerca" class="navbar-item"><h1 class="text-menu">BIO</h1></a>
+        <a id="acerca" class="navbar-item"><h1 class="text-menu">CONTACTO</h1></a>
         
     </div>
 
-    <div class="navbar-end is-hidden-mobile">
-        <a href="https://www.youtube.com/channel/UCEY3TmDho1KRvO9lqTDOfFQ" target="_blank"><img class="navbar-item socialmedia" src="/assets/008-youtube.svg" alt=""></a>
-        <a href="https://www.instagram.com/refugioambulante/" target="_blank"><img class="navbar-item socialmedia" src="/assets/instagram.svg" alt=""></a>
-        <a href="https://open.spotify.com/album/4z6dzQeGpP9xthQDCJO1sF" target="_blank"><img class="navbar-item socialmedia" src="/assets/spotify.svg" alt=""></a>
+    <div class="navbar-end is-flex-mobile is-justify-content-center">
+        <a href="https://www.youtube.com/channel/UCEY3TmDho1KRvO9lqTDOfFQ" target="_blank"><img class="navbar-item socialmedia" src="assets/008-youtube.svg" alt=""></a>
+        <a href="https://www.instagram.com/refugioambulante/" target="_blank"><img class="navbar-item socialmedia" src="assets/instagram.svg" alt=""></a>
+        <a href="https://open.spotify.com/album/4z6dzQeGpP9xthQDCJO1sF" target="_blank"><img class="navbar-item socialmedia" src="assets/spotify.svg" alt=""></a>
 
     </div>
 
@@ -47,13 +46,24 @@
 
 </nav>
 
-<!--Musica-->
-<div id="musica">
+<!--LandingPage-->
+<div class="musica-container is-ma">
+<h1 class="titulo__presentaciones">PRESENTACIONES</h1>
 
 
-    
-    
-</div>   
+<div class="item-container">
+
+    <div class="item">
+        <img class="img-cover" src="assets/REFUGIOAMBULANTE.png" alt="">
+    </div>
+    <div class="item">
+        <img class="img-cover" src="assets/refambfest.png" alt="">
+    </div>
+
+</div>  
+   
+
+</div> 
 
 
 <script type="module" src="main.js" defer></script>
