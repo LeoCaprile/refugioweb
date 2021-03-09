@@ -82,19 +82,18 @@ display:none;
     text-align: center;
     color:white;
 }
-
 .item-container{
+    flex-wrap: wrap;
 
-display: flex;
-flex-wrap: wrap;
 }
 
 .item{
-    flex: auto;
-    color: white;
-    margin: 10px;
-    display: block;
-    height: 20em;
-    width: 20em;
-    object-fit: contain;
+margin: 2vw;
+transition: all 1s;
+}
+
+.item:hover{
+
+    transform: scale(1.2)
+
 }
