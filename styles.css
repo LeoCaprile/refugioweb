@@ -97,3 +97,8 @@ transition: all 1s;
     transform: scale(1.2)
 
 }
+
+.white{
+    color: white;
+    text-align: justify;
+}
